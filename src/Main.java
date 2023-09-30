@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null,"Bem vindo ao jogo de advinhação!");
+        JOptionPane.showMessageDialog(null,"Bem vindo ao jogo de adivinhação! Você terá 5 chances de adivinhar um número de 0 a 100. \n Boa sorte! ");
         Numero num = new Numero();
         int x = 1;
         while (x == 1){
